@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="TestLogConfig" status="INFO" monitorInterval="30">
+
+    <!-- Define properties -->
+    <Properties>
+        <Property name="LOG_DIR">logs</Property>
+        <Property name="LOG_PATTERN">[%d{yyyy-MM-dd HH:mm:ss}] [%p] %c{1} - %m%n</Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- ✅ Daily Rolling File Appender -->
+        <RollingFile name="RollingFile"
+                     fileName="${LOG_DIR}/application.log"
+                     filePattern="${LOG_DIR}/archive/application-%d{yyyy-MM-dd}.log.gz">
+
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+
+            <Policies>
+                <!-- Roll over every day at midnight -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+
+            <!-- Keep last 30 days -->
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+
+        <!-- Async Wrapper for Performance -->
+        <Async name="AsyncRolling">
+            <AppenderRef ref="RollingFile"/>
+        </Async>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- Custom Logger for your project (only file logs) -->
+        <Logger name="com.yourproject" level="debug" additivity="false">
+            <AppenderRef ref="AsyncRolling"/>
+        </Logger>
+
+        <!-- Root Logger (only file logs) -->
+        <Root level="info">
+            <AppenderRef ref="AsyncRolling"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>
