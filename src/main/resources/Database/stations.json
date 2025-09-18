@@ -1,0 +1,256 @@
+{
+  "blueLineStations" : [ {
+    "id" : "B1",
+    "name" : "Wimco Nagar",
+    "line" : "Blue",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "B2",
+    "name" : "Thiruvottriyur",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B3",
+    "name" : "Thiruvottriyur Theradi",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : false
+  }, {
+    "id" : "B4",
+    "name" : "Kaladipet",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : false
+  }, {
+    "id" : "B5",
+    "name" : "Tollgate",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : false
+  }, {
+    "id" : "B6",
+    "name" : "New Washermanpet",
+    "line" : "Blue",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "B7",
+    "name" : "Tondiarpet",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B8",
+    "name" : "Thiyagaraya College",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : false
+  }, {
+    "id" : "B9",
+    "name" : "Washermenpet",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B10",
+    "name" : "Mannadi",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B11",
+    "name" : "High Court",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B12",
+    "name" : "Chennai Central",
+    "line" : "Blue",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "B13",
+    "name" : "Government Estate",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B14",
+    "name" : "LIC",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : false
+  }, {
+    "id" : "B15",
+    "name" : "Thousand Lights",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B16",
+    "name" : "AG-DMS",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : false
+  }, {
+    "id" : "B17",
+    "name" : "Teynampet",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B18",
+    "name" : "Nandanam",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B19",
+    "name" : "Saidapet",
+    "line" : "Blue",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "B20",
+    "name" : "Little Mount",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B21",
+    "name" : "Guindy",
+    "line" : "Blue",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "B22",
+    "name" : "Alandur",
+    "line" : "Blue",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "B23",
+    "name" : "Nanganallur Road",
+    "line" : "Blue",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "B24",
+    "name" : "Meenambakkam",
+    "line" : "Blue",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "B25",
+    "name" : "Airport",
+    "line" : "Blue",
+    "hasParking" : true,
+    "hasFeeder" : true
+  } ],
+  "greenLineStations" : [ {
+    "id" : "G1",
+    "name" : "Chennai Central",
+    "line" : "Green",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "G2",
+    "name" : "Egmore",
+    "line" : "Green",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "G3",
+    "name" : "Nehru Park",
+    "line" : "Green",
+    "hasParking" : false,
+    "hasFeeder" : false
+  }, {
+    "id" : "G4",
+    "name" : "Kilpauk",
+    "line" : "Green",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "G5",
+    "name" : "Pachaiyappa’s College",
+    "line" : "Green",
+    "hasParking" : false,
+    "hasFeeder" : false
+  }, {
+    "id" : "G6",
+    "name" : "Shenoy Nagar",
+    "line" : "Green",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "G7",
+    "name" : "Anna Nagar East",
+    "line" : "Green",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "G8",
+    "name" : "Anna Nagar Tower",
+    "line" : "Green",
+    "hasParking" : false,
+    "hasFeeder" : false
+  }, {
+    "id" : "G9",
+    "name" : "Thirumangalam",
+    "line" : "Green",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "G10",
+    "name" : "Koyambedu",
+    "line" : "Green",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "G11",
+    "name" : "CMBT",
+    "line" : "Green",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "G12",
+    "name" : "Arumbakkam",
+    "line" : "Green",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "G13",
+    "name" : "Vadapalani",
+    "line" : "Green",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "G14",
+    "name" : "Ashok Nagar",
+    "line" : "Green",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "G15",
+    "name" : "Ekkattuthangal",
+    "line" : "Green",
+    "hasParking" : false,
+    "hasFeeder" : true
+  }, {
+    "id" : "G16",
+    "name" : "Alandur",
+    "line" : "Green",
+    "hasParking" : true,
+    "hasFeeder" : true
+  }, {
+    "id" : "G17",
+    "name" : "St. Thomas Mount",
+    "line" : "Green",
+    "hasParking" : true,
+    "hasFeeder" : true
+  } ]
+}

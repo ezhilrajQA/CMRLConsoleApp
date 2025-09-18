@@ -1,0 +1,7 @@
+[
+  { "minStops": 1, "maxStops": 2, "fare": 10 },
+  { "minStops": 3, "maxStops": 5, "fare": 15 },
+  { "minStops": 6, "maxStops": 8, "fare": 30 },
+  { "minStops": 9, "maxStops": 12, "fare": 40 },
+  { "minStops": 13, "maxStops": 100, "fare": 50 }
+]
